@@ -23,7 +23,4 @@ pipenv shell
 ```sh
 python manage.py makemigrations
 python manage.py migrate
-python manage.py loaddata languages.yaml
-# NOTE: you can produce the same data in languages.yaml with
-# python manage.py dumpdata users.Language --format=yaml > languages.yaml
 ```
